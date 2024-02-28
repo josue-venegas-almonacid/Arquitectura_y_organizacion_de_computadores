@@ -23,7 +23,8 @@ Para cada ejercicio se realizó la máquina de estados finitos solicitada utiliz
 ### Circuito Módulo 4
 
 Para este circuito se diseñó la siguiente máquina de estados finitos:
-![Máquina de estados finitos - Circuito Módulo 4](modulo4_fsm.png)
+
+![Máquina de estados finitos - Circuito Módulo 4](resources/modulo4_fsm.png)
 
 Donde:
 Conjunto de Estados: {q0, q1, q2, q3}
@@ -53,26 +54,26 @@ Y luego se codificó cada etiqueta de estado en notación decimal:
 
 Por lo que se obtiene la siguiente tabla de verdad, donde E1 E0 son los estados codificados y O1 O0 son sus alfabetos de salida:
 
-![Tabla de verdad - Estados y alfabetos de salida - Circuito Módulo 4](modulo4_tabla_1.png)
+![Tabla de verdad - Estados y alfabetos de salida - Circuito Módulo 4](resources/modulo4_tabla_1.png)
 
 Y sus mapas de Karnaugh asociados son:
 
-![Mapas de Karnaugh - Estados y alfabetos de salida - Circuito Módulo 4](modulo4_mapa_1.png)
+![Mapas de Karnaugh - Estados y alfabetos de salida - Circuito Módulo 4](resources/modulo4_mapa_1.png)
 
 Por otro lado, la tabla de verdad correspondiente a las transiciones, donde E1 E0 es el estado inicial codificado, I es la entrada (0 ó 1) y S1 S0 el estado resultante codificado, queda de la siguiente manera:
 
-![Tabla de verdad - Estados de entrada y salida - Circuito Módulo 4](modulo4_tabla_2.png)
+![Tabla de verdad - Estados de entrada y salida - Circuito Módulo 4](resources/modulo4_tabla_2.png)
 
 Con los mapas de Karnaugh siguientes:
 
-![Mapas de Karnaugh - Estados de entrada y salida - Circuito Módulo 4](modulo4_mapa_2.png)
+![Mapas de Karnaugh - Estados de entrada y salida - Circuito Módulo 4](resources/modulo4_mapa_2.png)
 
 Generando así el circuito guardado en el archivo `modulo4.circ`
 
 ### Circuito Secuencia con traslape
 
 Para este circuito se diseñó la siguiente máquina de estados finitos:
-![Máquina de estados finitos - Circuito Secuencia con traslape](secuencia10110traslape_fsm.png)
+![Máquina de estados finitos - Circuito Secuencia con traslape](resources/secuencia10110traslape_fsm.png)
 
 Donde:
 Conjunto de Estados: {q0, q1, q2, q3, q4, q5}
@@ -112,7 +113,7 @@ Así el sistema se desarrolla inductivamente hasta inspeccionar todos los estado
 1. Si hay dos o más casillas sin marcar, éstas son redundantes
 2. Si todas las casillas están marcadas, ninguna casilla es redundante. Es decir, es el mínimo número de estados posibles para resolver el problema solicitado.
 
-![Tabla de equivalencias para ver estados redundantes - Circuito Secuencia con traslape](secuencia10110traslape_redundantes.png)
+![Tabla de equivalencias para ver estados redundantes - Circuito Secuencia con traslape](resources/secuencia10110traslape_redundantes.png)
 
 La solución es la siguiente:
 Notamos que ningún estado puede ser igual a q5, dado que sólo q5 tiene como salida el valor 1 (por lo que no clasifica según el primer criterio), por lo que dichas casillas se marcan con una X, en señal de que no pueden ser equivalentes.
@@ -125,19 +126,19 @@ Se han marcado en rojo las condiciones que no pueden cumplirse.
 
 Por lo que se obtiene la siguiente tabla de verdad, donde E2 E1 E0 son los estados codificados y O son sus alfabetos de salida:
 
-![Tabla de verdad - Estados y alfabetos de salida - Circuito Secuencia con traslape](secuencia10110traslape_tabla_1.png)
+![Tabla de verdad - Estados y alfabetos de salida - Circuito Secuencia con traslape](resources/secuencia10110traslape_tabla_1.png)
 
 Y sus mapas de Karnaugh asociados son:
 
-![Mapas de Karnaugh - Estados y alfabetos de salida - Circuito Secuencia con traslape](secuencia10110traslape_mapa_1.png)
+![Mapas de Karnaugh - Estados y alfabetos de salida - Circuito Secuencia con traslape](resources/secuencia10110traslape_mapa_1.png)
 
 Finalmente se ha elaborado la tabla de verdad correspondiente a las transiciones, donde E2 E1 E0 es el estado inicial codificado, I es la entrada (0 ó 1) y S2 S1 S0 el estado resultante codificado, quedando de la siguiente manera:
 
-![Tabla de verdad - Estados de entrada y salida - Circuito Secuencia con traslape](secuencia10110traslape_tabla_2.png)
+![Tabla de verdad - Estados de entrada y salida - Circuito Secuencia con traslape](resources/secuencia10110traslape_tabla_2.png)
 
 Con los mapas de Karnaugh siguientes:
 
-![Mapas de Karnaugh - Estados de entrada y salida - Circuito Secuencia con traslape](secuencia10110traslape_mapa_2.png)
+![Mapas de Karnaugh - Estados de entrada y salida - Circuito Secuencia con traslape](resources/secuencia10110traslape_mapa_2.png)
 
 Generando así el circuito guardado en el archivo `secuencia10110traslape.circ`
 
