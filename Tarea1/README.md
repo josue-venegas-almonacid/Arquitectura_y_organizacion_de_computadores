@@ -12,6 +12,11 @@ Se ha comprobado el correcto funcionamiento del proyecto con las siguientes vers
 3. Seleccione el circuito que desea ver y realice las operaciones del circuito presionando sobre las casillas. Las casillas A1 y A0 corresponden al primer número, donde A1 es el bit de mayor valor; B1 y B0 corresponden al segundo número, donde B1 es el bit de mayor valor; y C es el resultado
 
 ## Descripción
+
+Para esta tarea se solicitó la creación de distintos circuitos, encargados de:
+- Realizar la adición y multiplicación entre dos entradas enteras de 2 bits
+- Determinar el valor de y = ax + b, donde a, x, b son entradas enteras de 2 bits
+
 Lo primero que se hizo fue considerar los números enteros posibles con un tamaño de 2 bits. Si los analizamos en complemento-2, el rango de los números que se pueden representar es [-2, 1].
 
 | Decimal  | Binario  |
