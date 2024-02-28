@@ -6,6 +6,10 @@ Arquitectura y organización de computadores
 
 Repositorio utilizado para alojar diversos ejercicios realizados durante el curso "Estructuras de Datos" el segundo semestre del año 2019 en la Universidad Técnica Federico Santa María, para la carrera de Ingeniería Civil en Informática.
 
+# Creadores
+- Benjamin Guzman Lopez 201873627-9
+- Josue Venegas Almonacid 201873534-5
+
 # Tarea 1
 Para esta sección se realizaron diversos circuitos mediante la herramienta Logisim, capaces de:
 - Realizar la adición y multiplicación entre dos entradas enteras de 2 bits
