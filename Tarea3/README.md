@@ -17,7 +17,7 @@ Para esta tarea se solicitó la creación de distintos programas en ARM Assembly
 - Dada una entrada entera n entre [0, 2^8], determinar el n-ésimo número de la serie de Lucas
 - Encontrar un número en un conjunto de n valores ordenados. La entrada consiste de un entero n, que define el largo del conjunto, seguido de n enteros ordenados y un último entero K, que será el elemento que buscaremos en en el conjunto. En caso de que el elemento buscado no se encuentre dentro del conjunto debe entregar un mensaje correspondiente.
 
-### Número de lucas
+### Número de Lucas
 
 De manera similar a los números de Fibonacci, cada número de Lucas se define como la suma de sus dos inmediatos anteriores, formando así una secuencia de enteros. Los dos primeros números de Lucas son L0 = 2 y L1 = 1.
 
